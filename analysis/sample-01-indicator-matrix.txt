@@ -1,0 +1,100 @@
+SAMPLE-01 PHISHING INDICATOR MATRIX
+===================================
+
+[1] Brand impersonation
+Evidence:
+  Display name: Microsoft account team
+  Email claims to be from the Microsoft account team.
+Risk:
+  High
+Reason:
+  The sender identity is designed to make the recipient trust the message.
+
+[2] Sender domain mismatch
+Evidence:
+  From: no-reply@access-accsecurity.com
+Risk:
+  Critical
+Reason:
+  The visible sender domain does not belong to Microsoft despite the Microsoft branding.
+
+[3] Reply-To mismatch
+Evidence:
+  Reply-To: sotrecognizd@gmail.com
+Risk:
+  Critical
+Reason:
+  A Microsoft security notification directing responses to an unrelated Gmail account is highly suspicious.
+
+[4] Return-Path mismatch
+Evidence:
+  Return-Path: bounce@thcultarfdes.co.uk
+Risk:
+  High
+Reason:
+  The return-path domain differs from the visible From domain.
+
+[5] Authentication failure/anomaly
+Evidence:
+  SPF: none
+  DKIM: none
+  DMARC: permerror
+Risk:
+  High
+Reason:
+  The message lacks normal sender authentication and has a DMARC evaluation error.
+
+[6] Urgency and fear
+Evidence:
+  Subject: Microsoft account unusual signin activity
+  Body claims a new sign-in from Russia/Moscow.
+Risk:
+  High
+Reason:
+  The message attempts to create fear and urgency so the recipient acts without verifying it.
+
+[7] Suspicious action destination
+Evidence:
+  "Report The User" points to:
+  mailto:sotrecognizd@gmail.com
+Risk:
+  Critical
+Reason:
+  The apparent Microsoft security action actually targets an unrelated Gmail address.
+
+[8] External tracking resource
+Evidence:
+  hxxp://thebandalisty[.]com/track/[REDACTED]
+Risk:
+  Medium
+Reason:
+  The email contains an unrelated external HTTP tracking resource.
+
+[9] Claimed login IP
+Evidence:
+  103.225.77.255
+Risk:
+  Informational
+Reason:
+  This IP is presented inside the email as the alleged suspicious-login IP. It is not the email's actual sending IP.
+
+[10] Actual sending IP
+Evidence:
+  89.144.44.2
+Risk:
+  Informational
+Reason:
+  This IP is identified by the email headers as the sender IP.
+
+OVERALL ASSESSMENT
+==================
+Classification: PHISHING
+Confidence: HIGH
+Primary reasons:
+  - Microsoft impersonation
+  - Non-Microsoft From domain
+  - Gmail Reply-To/action destination
+  - Different Return-Path domain
+  - SPF/DKIM/DMARC authentication anomalies
+  - Urgency/fear-based social engineering
+  - Suspicious external tracking resource

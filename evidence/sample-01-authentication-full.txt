@@ -1,0 +1,5 @@
+Authentication-Results: spf=none (sender IP is 89.144.44.2)
+ smtp.mailfrom=thcultarfdes.co.uk; dkim=none (message not signed)
+ header.d=none;dmarc=permerror action=none header.from=access-accsecurity.com;
+Received-SPF: None (protection.outlook.com: thcultarfdes.co.uk does not
+ designate permitted sender hosts)

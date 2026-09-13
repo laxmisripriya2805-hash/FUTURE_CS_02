@@ -1,0 +1,11 @@
+Authentication-Results: spf=none (sender IP is 89.144.44.2)
+Received-SPF: None (protection.outlook.com: thcultarfdes.co.uk does not
+From: Microsoft account team ,_<no-reply@access-accsecurity.com>
+Subject: Microsoft account unusual signin activity
+To: phishing@pot
+Date: Fri, 8 Sep 2023 05:47:04 +0000
+Reply-To: sotrecognizd@gmail.com
+Content-Type: text/html; charset="UTF-8"
+Message-ID:
+Return-Path: bounce@thcultarfdes.co.uk
+X-Sender-IP: 89.144.44.2

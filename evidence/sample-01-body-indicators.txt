@@ -1,0 +1,45 @@
+[Phishing Email Body Indicators]
+
+1. Brand impersonation:
+   Microsoft account team
+
+2. Urgency:
+   "Unusual sign.in activity"
+   "We detected something unusual about a recent sign-in"
+
+3. Claimed suspicious activity:
+   Country/region: Russia/Moscow
+   IP address: 103.225.77.255
+
+4. Requested action:
+   "Report The User"
+
+5. Suspicious action destination:
+   mailto:sotrecognizd@gmail.com
+   (Defanged for reporting: mailto:sotrecognizd@gmail[.]com)
+
+6. Security notification opt-out destination:
+   mailto:sotrecognizd@gmail.com
+
+7. External tracking resource:
+   hxxp://thebandalisty[.]com/track/[REDACTED]
+
+8. Sender/domain inconsistency:
+   Display name claims Microsoft, but From domain is:
+   access-accsecurity.com
+
+9. Reply destination:
+   sotrecognizd@gmail.com
+
+10. Authentication indicators:
+    SPF: none
+    DKIM: none
+    DMARC: permerror
+
+11. Actual sending IP from headers:
+    89.144.44.2
+
+12. Claimed login IP in message body:
+    103.225.77.255
+    (This is presented by the email as the suspicious-login IP and is
+    not the same as the sending IP.)

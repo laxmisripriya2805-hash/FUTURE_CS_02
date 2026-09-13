@@ -1,0 +1,60 @@
+SAMPLE-01 RISK ASSESSMENT
+=========================
+
+Classification: PHISHING
+Confidence: HIGH
+Overall Risk: HIGH
+
+Risk Indicators:
+
+1. Microsoft brand impersonation
+   Severity: High
+   Evidence: Display name claims "Microsoft account team"
+
+2. From-domain mismatch
+   Severity: Critical
+   Evidence: no-reply@access-accsecurity.com
+
+3. Reply-To mismatch
+   Severity: Critical
+   Evidence: sotrecognizd@gmail.com
+
+4. Return-Path mismatch
+   Severity: High
+   Evidence: bounce@thcultarfdes.co.uk
+
+5. Email authentication anomalies
+   Severity: High
+   Evidence:
+   SPF: none
+   DKIM: none
+   DMARC: permerror
+
+6. Urgency/fear-based social engineering
+   Severity: High
+   Evidence:
+   "Unusual sign.in activity"
+   "Russia/Moscow"
+   "Report The User"
+
+7. Suspicious action destination
+   Severity: Critical
+   Evidence:
+   Report The User -> mailto:sotrecognizd@gmail.com
+
+8. External tracking resource
+   Severity: Medium
+   Evidence:
+   hxxp://thebandalisty[.]com/track/[REDACTED]
+
+Final Assessment:
+The email is classified as HIGH-RISK PHISHING with HIGH confidence.
+The classification is based on multiple independent indicators,
+including brand impersonation, sender identity mismatches,
+authentication anomalies, urgency-based social engineering, and
+an unrelated Gmail destination for the requested action.
+
+Recommended User Action:
+Do not reply, click links, or interact with the message.
+Report the message through the organization's approved phishing
+reporting mechanism and delete/quarantine it.

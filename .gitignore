@@ -1,0 +1,10 @@
+# Original phishing sample - keep local
+samples/sample-01/sample-10.eml
+
+# Old/raw header extraction - keep local
+evidence/sample-01-header.txt
+
+# Temporary files
+*.tmp
+*.swp
+*~

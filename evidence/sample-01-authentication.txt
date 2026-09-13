@@ -1,0 +1,5 @@
+14:Authentication-Results: spf=none (sender IP is 89.144.44.2)
+17:Received-SPF: None (protection.outlook.com: thcultarfdes.co.uk does not
+53:X-MS-Exchange-Organization-AuthAs: Anonymous
+57:X-Sender-IP: 89.144.44.2
+61:X-MS-Exchange-Organization-SCL: 5
