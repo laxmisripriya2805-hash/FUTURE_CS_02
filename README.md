@@ -183,7 +183,7 @@ Recommended screenshots are listed in
 `evidence/SCREENSHOT-CHECKLIST.md`.
 
 Screenshots should show **your own Kali terminal and local analysis**,
-not screenshots copied from unrelated websites. This preserves evidence
+not screenshots copied from unrelated websites.This preserves evidence
 provenance and makes the project more credible.
 
 ## Limitations
