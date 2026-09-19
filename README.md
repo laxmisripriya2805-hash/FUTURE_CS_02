@@ -67,7 +67,7 @@ Correlate evidence
    ↓
 Risk classification
    ↓
-Awareness + SOC recommendations
+Awareness + SOC recommendations 
 ```
 
 ## Tools
