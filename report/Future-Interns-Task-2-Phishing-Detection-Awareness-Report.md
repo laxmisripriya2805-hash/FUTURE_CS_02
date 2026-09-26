@@ -2,7 +2,7 @@
 
 ## Phishing Email Detection & Awareness Report
 
-**Analyst:** Laxmi Sri Priya\
+**Analyst:** LaxmiSriPriya\
 **Task:** Cyber Security Task 2 (2026)\
 **Analysis Type:** Static phishing-email analysis\
 **Sample:** Sample-01 / `sample-10.eml`\
